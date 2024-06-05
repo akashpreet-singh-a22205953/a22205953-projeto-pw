@@ -20,7 +20,11 @@
             <a href="{% url 'mebyme_detail' %}"><button>MeByMe</button></a>
             <a href="{% url 'allAppview' %}"><button>Apps</button></a>
             <a href="{% url 'video_view' %}"><button>Video</button></a>
+            <a href="/autenticar/"  target="_blank"><button>Login</button></a>
+
         </header>
+
+
         <main>
             {% block content %}
             {% endblock %}
@@ -30,3 +34,4 @@
         </footer>
     </body>
 </html>
+
