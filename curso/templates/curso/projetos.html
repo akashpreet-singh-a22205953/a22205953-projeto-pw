@@ -1,0 +1,24 @@
+{% extends 'curso/layout.html' %}
+
+{% block content %}
+    <form action="{% url 'curso:criar_projeto' %}">
+        <button type="submit" class="btn btn-primary">Criar Projeto</button>
+    </form>
+    <ul>
+        {% for project in projetos %}
+            <li>
+                <a href="{% url 'curso:project_details' project.id %}">
+                    <strong>Name:</strong> {{ project.projeto }}
+                </a>
+                <form action="{% url 'curso:editar_projeto' project.pk %}">
+                    <button type="submit" class="btn btn-warning btn-sm">Editar</button>
+                </form>
+                <form action="{% url 'curso:remover_projeto' project.pk %}" method="post" class="d-inline">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-danger btn-sm">Remover</button>
+                </form>
+            </li>
+            <br>
+        {% endfor %}
+    </ul>
+{% endblock %}

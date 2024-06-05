@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5-Day Weather Forecast</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.weather-container {
+    display: grid;
+    grid-auto-flow: column; /* Display grid items in a row */
+    gap: 20px;
+    padding: 2px;
+    justify-items: center;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.weather-day {
+        background-color: #00cfa9;
+    width: 190px;
+    margin: 0px 0;
+    padding: 17px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.weather-day img {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.weather-day p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+}
+  </style>
+
+              <link rel="stylesheet" href="{% static 'portfolio1/estilo.css' %}">
+
+</head>
+<body>
+
+
+    <div class="navigation">
+        <a href="{% url 'weather' %}"><button>Meteo</button></a>
+        <a href="{% url 'previsao' %}"><button>Previsao</button></a>
+<button onclick="window.open('/', '_blank')">Portfolio</button>
+    </div>
+    <h1>5-Day Weather Forecast</h1>
+    <div class="weather-container">
+        {% for weather in weatherDetailsList %}
+            <div class="weather-day">
+                <p>Date: {{ weather.dataHoje }}</p>
+                <p>Min Temperature: {{ weather.temperaturaMin }}</p>
+                <p>Max Temperature: {{ weather.temperaturaMax }}</p>
+                <p> {{ weather.tempDesc }}</p>
+                <img src="{% static 'meteo/svg/' %}{{ weather.svgFile }}" alt="Weather Icon">
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

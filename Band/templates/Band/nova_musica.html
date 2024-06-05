@@ -1,0 +1,10 @@
+<!-- nova_musica.html -->
+{% extends 'Band/layout.html' %}
+{% block content %}
+  <h2>Nova Música</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Salvar</button>
+  </form>
+{% endblock %}

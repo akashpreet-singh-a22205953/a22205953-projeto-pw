@@ -1,0 +1,20 @@
+[
+    {
+        "autorName": "John Doe",
+        "post": "Introduction to Django",
+        "comentario": "Great article, very informative!",
+        "rating": "5"
+    },
+    {
+        "autorName": "Jane Smith",
+        "post": "Advanced Django Tips",
+        "comentario": "This helped me a lot, thanks!",
+        "rating": "4"
+    },
+    {
+        "autorName": "Michael Johnson",
+        "post": "Django Security Best Practices",
+        "comentario": "Important information, thanks for sharing!",
+        "rating": "4"
+    }
+]

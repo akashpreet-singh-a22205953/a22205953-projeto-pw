@@ -1,0 +1,101 @@
+body {
+    background: skyblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a {
+    background: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+main {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.bandas-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banda {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.banda img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.banda-info {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .banda {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .banda img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+}

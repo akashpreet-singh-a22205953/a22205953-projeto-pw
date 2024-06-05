@@ -1,0 +1,34 @@
+{% load static %}
+<html>
+    <head>
+        <title>🎸 ROCK IN DEISI 🎸</title>
+
+        <link rel="stylesheet" href="{% static 'portfolio1/estilo.css' %}">
+    </head>
+    <body>
+
+        <header>
+            <h1>ROCK IN DEISI</h1>
+            <a href="{% url 'band:pagina_inicial' %}"><button>Home</button></a>
+
+
+        </header>
+        <div class="buttons">
+             <a href="{% url 'band:novo_Banda' %}"><button>Nova Banda</button></a>
+        <a href="{% url 'band:novo_album_view' %}"> <button>Novo Álbum</button></a>
+        <a href="{% url 'band:nova_musica_view' %}"><button>Nova Música</button></a>
+
+        </div>
+
+        <main>
+
+            {% block content %}
+            {% endblock %}
+
+        </main>
+
+        <footer>
+            <p>By Akash Gill</p>
+        </footer>
+    </body>
+</html>

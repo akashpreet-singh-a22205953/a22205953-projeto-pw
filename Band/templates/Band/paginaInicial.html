@@ -1,0 +1,26 @@
+{% extends 'Band/layout.html' %}
+
+{% block content %}
+
+    <h1>Lista de Bandas</h1>
+    <ul>
+        {% for banda in bandas %}
+            <li style="position: relative; display: inline-block;">
+                <div>
+                    <a href="{% url 'band:bandalbuns' banda.id %}">
+                        <img style="width: 300px; height: auto;" src="{{ banda.foto.url }}" alt="Foto da Banda">
+                        <div style="position: absolute; top: 0; left: 0; background-color: rgba(7, 7, 7, 0.7); padding: 10px;">
+                            <h3>{{ banda.nome }}</h3>
+                        </div>
+                    </a>
+                    <form action="{% url 'band:remover_banda' banda.id %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger">Remover</button>
+                    </form>
+                </div>
+            </li>
+            <!--<br>-->
+            <!--<br>-->
+        {% endfor %}
+    </ul>
+{% endblock %}

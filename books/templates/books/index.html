@@ -1,0 +1,9 @@
+{% extends 'books/layout.html' %}
+{% block content %}
+<h1>List of Books</h1>
+<ul>
+    {% for book in books %}
+    <li><a href="{% url 'books:book_view' book.id %}">{{ book.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

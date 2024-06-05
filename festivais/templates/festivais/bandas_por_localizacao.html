@@ -1,0 +1,13 @@
+<!-- bandas_por_localizacao.html -->
+{% extends 'festivais/layout.html' %}
+
+{% block content %}
+<h1>Bandas na Localização: {{ localizacao.cidade }}</h1>
+<ul>
+    {% for banda in localizacao.festivais.all %}
+    <li>{{ banda.nome }}</li>
+    {% endfor %}
+</ul>
+
+<h5>2024</h5>
+{% endblock %}

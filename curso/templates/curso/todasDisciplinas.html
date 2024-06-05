@@ -1,0 +1,27 @@
+{% extends 'curso/layout.html' %}
+
+{% block content %}
+<form action="{% url 'curso:criar_disciplina' %}" method="get">
+    <button type="submit" class="btn btn-primary">Criar Disciplina</button>
+</form>
+    <ul>
+    {% for disciplina in disciplinas %}
+        <li>
+            <a href="{% url 'curso:disciplina_details' disciplina.id %}">
+                <strong>Nome:</strong> {{ disciplina.nome }}<br>
+<form action="{% url 'curso:editar_disciplina' disciplina.pk %}" method="get" class="d-inline">
+    <button type="submit" class="btn btn-warning btn-sm">Editar</button>
+</form>                <form action="{% url 'curso:remover_disciplina' disciplina.pk %}" method="post" class="d-inline">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-danger btn-sm">Remover</button>
+                </form>
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}
+
+
+
+
+

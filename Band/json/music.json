@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Bohemian Rhapsody",
+    "release_year": 1975,
+    "duration": "2:45"
+  },
+  {
+    "title": "Stairway to Heaven",
+    "release_year": 1971,
+    "duration": "2:55"
+  },
+  {
+    "title": "Hotel California",
+    "release_year": 1977,
+    "duration": "2:15"
+  },
+  {
+    "title": "Imagine",
+    "release_year": 1971,
+    "duration": "2:05"
+  },
+  {
+    "title": "Thriller",
+    "release_year": 1982,
+    "duration": "2:35"
+  }
+]

@@ -1,0 +1,60 @@
+
+
+
+{% extends 'curso/layout.html' %}
+
+{% block content %}
+    <ul>
+    {% for curso in cursos %}
+        <li>
+            <strong>Apresentação:</strong> {{ curso.apresentacao }} <br>
+
+        </li>
+        <li>
+
+            <strong>Objectivos:</strong> {{ curso.objectivos }} <br>
+
+        </li>
+        <li>
+
+            <strong>Competencias:</strong> {{ curso.competencias }} <br>
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}
+
+
+
+<!-- cursos_template.html -->
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Curso List</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h3>-->
+<!--        <nav>-->
+<!--            <a href="{% url 'curso:intro_view' %}">Lei</a>-->
+<!--            <a href="{% url 'curso:todasDisciplinas_view' %}">Disciplinas</a>-->
+<!--            <a href="{% url 'curso:projetos_view' %}">Projetos</a>-->
+
+
+
+<!--    </nav>-->
+<!--    </h3>-->
+<!--    <h1>-->
+<!--        LEI-->
+
+<!--    </h1>-->
+<!--    <ul>-->
+<!--    {% for curso in cursos %}-->
+<!--        <li>-->
+<!--            <strong>Apresentação:</strong> {{ curso.apresentacao }} <br>-->
+<!--            <strong>Objectivos:</strong> {{ curso.objectivos }} <br>-->
+<!--            <strong>Competencias:</strong> {{ curso.competencias }} <br>-->
+<!--        </li>-->
+<!--    {% endfor %}-->
+<!--    </ul>-->
+<!--</body>-->
+<!--</html>-->

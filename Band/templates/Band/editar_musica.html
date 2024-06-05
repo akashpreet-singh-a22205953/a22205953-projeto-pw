@@ -1,0 +1,10 @@
+{% extends 'Band/layout.html' %}
+
+{% block content %}
+    <h1>Editar Música</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}  {# If you have a form for editing specific fields #}
+        <button type="submit">Salvar</button>
+    </form>
+{% endblock %}

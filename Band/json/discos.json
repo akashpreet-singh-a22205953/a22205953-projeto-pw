@@ -1,0 +1,208 @@
+[
+  {
+    "titulo": "Led Zeppelin I",
+    "ano_do_lancamento": 1969,
+    "musicas": [
+      {"titulo": "Good Times Bad Times", "duracao": "02:46"},
+      {"titulo": "Babe I'm Gonna Leave You", "duracao": "06:41"},
+      {"titulo": "You Shook Me", "duracao": "06:28"},
+      {"titulo": "Dazed and Confused", "duracao": "06:28"},
+      {"titulo": "Your Time Is Gonna Come", "duracao": "04:34"},
+      {"titulo": "Black Mountain Side", "duracao": "02:12"},
+      {"titulo": "Communication Breakdown", "duracao": "02:30"},
+      {"titulo": "I Can't Quit You Baby", "duracao": "04:42"},
+      {"titulo": "How Many More Times", "duracao": "08:27"}
+    ]
+  },
+  {
+    "titulo": "Abbey Road",
+    "ano_do_lancamento": 1969,
+    "musicas": [
+      {"titulo": "Come Together", "duracao": "04:20"},
+      {"titulo": "Something", "duracao": "03:03"},
+      {"titulo": "Maxwell's Silver Hammer", "duracao": "03:27"},
+      {"titulo": "Oh! Darling", "duracao": "03:26"},
+      {"titulo": "Octopus's Garden", "duracao": "02:51"},
+      {"titulo": "I Want You (She's So Heavy)", "duracao": "07:47"},
+      {"titulo": "Here Comes the Sun", "duracao": "03:05"},
+      {"titulo": "Because", "duracao": "02:45"},
+      {"titulo": "You Never Give Me Your Money", "duracao": "04:02"},
+      {"titulo": "Sun King", "duracao": "02:26"},
+      {"titulo": "Mean Mr. Mustard", "duracao": "01:06"},
+      {"titulo": "Polythene Pam", "duracao": "01:13"},
+      {"titulo": "She Came In Through the Bathroom Window", "duracao": "01:57"},
+      {"titulo": "Golden Slumbers", "duracao": "01:31"},
+      {"titulo": "Carry That Weight", "duracao": "01:36"},
+      {"titulo": "The End", "duracao": "02:05"},
+      {"titulo": "Her Majesty", "duracao": "00:23"}
+    ]
+  },
+  {
+    "titulo": "The Dark Side of the Moon",
+    "ano_do_lancamento": 1973,
+    "musicas": [
+      {"titulo": "Speak to Me", "duracao": "01:07"},
+      {"titulo": "Breathe", "duracao": "02:44"},
+      {"titulo": "On the Run", "duracao": "03:35"},
+      {"titulo": "Time", "duracao": "06:53"},
+      {"titulo": "The Great Gig in the Sky", "duracao": "04:44"},
+      {"titulo": "Money", "duracao": "06:30"},
+      {"titulo": "Us and Them", "duracao": "07:51"},
+      {"titulo": "Any Colour You Like", "duracao": "03:24"},
+      {"titulo": "Brain Damage", "duracao": "03:50"},
+      {"titulo": "Eclipse", "duracao": "02:03"}
+    ]
+  },
+  {
+    "titulo": "Sticky Fingers",
+    "ano_do_lancamento": 1971,
+    "musicas": [
+      {"titulo": "Brown Sugar", "duracao": "03:50"},
+      {"titulo": "Sway", "duracao": "03:50"},
+      {"titulo": "Wild Horses", "duracao": "05:41"},
+      {"titulo": "Can't You Hear Me Knocking", "duracao": "07:14"},
+      {"titulo": "You Gotta Move", "duracao": "02:32"},
+      {"titulo": "Bitch", "duracao": "03:37"},
+      {"titulo": "I Got the Blues", "duracao": "03:54"},
+      {"titulo": "Sister Morphine", "duracao": "05:34"},
+      {"titulo": "Dead Flowers", "duracao": "04:05"},
+      {"titulo": "Moonlight Mile", "duracao": "05:56"}
+    ]
+  },
+  {
+    "titulo": "A Night at the Opera",
+    "ano_do_lancamento": 1975,
+    "musicas": [
+      {"titulo": "Death on Two Legs (Dedicated to...)", "duracao": "03:43"},
+      {"titulo": "Lazing on a Sunday Afternoon", "duracao": "01:07"},
+      {"titulo": "I'm in Love with My Car", "duracao": "03:05"},
+      {"titulo": "You're My Best Friend", "duracao": "02:52"},
+      {"titulo": "'39", "duracao": "03:30"},
+      {"titulo": "Sweet Lady", "duracao": "04:04"},
+      {"titulo": "Seaside Rendezvous", "duracao": "02:13"},
+      {"titulo": "The Prophet's Song", "duracao": "08:21"},
+      {"titulo": "Love of My Life", "duracao": "03:38"},
+      {"titulo": "Good Company", "duracao": "03:26"},
+      {"titulo": "Bohemian Rhapsody", "duracao": "05:55"},
+      {"titulo": "God Save the Queen", "duracao": "01:13"}
+    ]
+  },
+  {
+    "titulo": "Back in Black",
+    "ano_do_lancamento": 1980,
+    "musicas": [
+      {"titulo": "Hells Bells", "duracao": "05:12"},
+      {"titulo": "Shoot to Thrill", "duracao": "05:17"},
+      {"titulo": "What Do You Do for Money Honey", "duracao": "03:35"},
+      {"titulo": "Givin the Dog a Bone", "duracao": "03:31"},
+      {"titulo": "Let Me Put My Love into You", "duracao": "04:15"},
+      {"titulo": "Back in Black", "duracao": "04:15"},
+      {"titulo": "You Shook Me All Night Long", "duracao": "03:30"},
+      {"titulo": "Have a Drink on Me", "duracao": "03:57"},
+      {"titulo": "Shake a Leg", "duracao": "04:06"},
+      {"titulo": "Rock and Roll Ain't Noise Pollution", "duracao": "04:12"}
+    ]
+  },
+  {
+    "titulo": "Appetite for Destruction",
+    "ano_do_lancamento": 1987,
+    "musicas": [
+      {"titulo": "Welcome to the Jungle", "duracao": "04:31"},
+      {"titulo": "It's So Easy", "duracao": "03:21"},
+      {"titulo": "Nightrain", "duracao": "04:26"},
+      {"titulo": "Out ta Get Me", "duracao": "04:20"},
+      {"titulo": "Mr. Brownstone", "duracao": "03:46"},
+      {"titulo": "Paradise City", "duracao": "06:46"},
+      {"titulo": "My Michelle", "duracao": "03:39"},
+      {"titulo": "Think About You", "duracao": "03:50"},
+      {"titulo": "Sweet Child o' Mine", "duracao": "05:56"},
+      {"titulo": "You're Crazy", "duracao": "03:17"},
+      {"titulo": "Anything Goes", "duracao": "03:25"},
+      {"titulo": "Rocket Queen", "duracao": "06:14"}
+    ]
+  },
+  {
+    "titulo": "The Doors",
+    "ano_do_lancamento": 1967,
+    "musicas": [
+      {"titulo": "Break on Through (To the Other Side)", "duracao": "02:29"},
+      {"titulo": "Soul Kitchen", "duracao": "03:35"},
+      {"titulo": "The Crystal Ship", "duracao": "02:34"},
+      {"titulo": "Twentieth Century Fox", "duracao": "02:33"},
+      {"titulo": "Alabama Song (Whisky Bar)", "duracao": "03:20"},
+      {"titulo": "Light My Fire", "duracao": "07:06"},
+      {"titulo": "Back Door Man", "duracao": "03:34"},
+      {"titulo": "I Looked at You", "duracao": "02:18"},
+      {"titulo": "End of the Night", "duracao": "02:52"},
+      {"titulo": "Take It as It Comes", "duracao": "02:23"},
+      {"titulo": "The End", "duracao": "11:41"}
+    ]
+  },
+  {
+    "titulo": "Nevermind",
+    "ano_do_lancamento": 1991,
+    "musicas": [
+      {"titulo": "Smells Like Teen Spirit", "duracao": "05:01"},
+      {"titulo": "In Bloom", "duracao": "04:15"},
+      {"titulo": "Come as You Are", "duracao": "03:39"},
+      {"titulo": "Breed", "duracao": "03:03"},
+      {"titulo": "Lithium", "duracao": "04:17"},
+      {"titulo": "Polly", "duracao": "02:56"},
+      {"titulo": "Territorial Pissings", "duracao": "02:23"},
+      {"titulo": "Drain You", "duracao": "03:43"},
+      {"titulo": "Lounge Act", "duracao": "02:36"},
+      {"titulo": "Stay Away", "duracao": "03:32"},
+      {"titulo": "On a Plain", "duracao": "03:17"},
+      {"titulo": "Something in the Way", "duracao": "03:52"}
+    ]
+  },
+  {
+    "titulo": "Who's Next",
+    "ano_do_lancamento": 1971,
+    "musicas": [
+      {"titulo": "Baba O'Riley", "duracao": "05:08"},
+      {"titulo": "Bargain", "duracao": "05:33"},
+      {"titulo": "Love Ain't for Keeping", "duracao": "02:11"},
+      {"titulo": "My Wife", "duracao": "03:34"},
+      {"titulo": "The Song Is Over", "duracao": "06:14"},
+      {"titulo": "Getting in Tune", "duracao": "04:49"},
+      {"titulo": "Going Mobile", "duracao": "03:42"},
+      {"titulo": "Behind Blue Eyes", "duracao": "03:41"},
+      {"titulo": "Won't Get Fooled Again", "duracao": "08:32"}
+    ]
+  },
+  {
+    "titulo": "Led Zeppelin IV",
+    "ano_do_lancamento": 1971,
+    "musicas": [
+      {"titulo": "Black Dog", "duracao": "04:54"},
+      {"titulo": "Rock and Roll", "duracao": "03:40"},
+      {"titulo": "The Battle of Evermore", "duracao": "05:51"},
+      {"titulo": "Stairway to Heaven", "duracao": "08:03"},
+      {"titulo": "Misty Mountain Hop", "duracao": "04:39"},
+      {"titulo": "Four Sticks", "duracao": "04:44"},
+      {"titulo": "Going to California", "duracao": "03:31"},
+      {"titulo": "When the Levee Breaks", "duracao": "07:07"}
+    ]
+  },
+  {
+    "titulo": "Revolver",
+    "ano_do_lancamento": 1966,
+    "musicas": [
+      {"titulo": "Taxman", "duracao": "02:39"},
+      {"titulo": "Eleanor Rigby", "duracao": "02:11"},
+      {"titulo": "I'm Only Sleeping", "duracao": "02:59"},
+      {"titulo": "Love You To", "duracao": "03:01"},
+      {"titulo": "Here, There and Everywhere", "duracao": "02:25"},
+      {"titulo": "Yellow Submarine", "duracao": "02:40"},
+      {"titulo": "She Said She Said", "duracao": "02:37"},
+      {"titulo": "Good Day Sunshine", "duracao": "02:10"},
+      {"titulo": "And Your Bird Can Sing", "duracao": "02:02"},
+      {"titulo": "For No One", "duracao": "02:01"},
+      {"titulo": "Doctor Robert", "duracao": "02:15"},
+      {"titulo": "I Want to Tell You", "duracao": "02:30"},
+      {"titulo": "Got to Get You into My Life", "duracao": "02:31"},
+      {"titulo": "Tomorrow Never Knows", "duracao": "03:00"}
+    ]
+  }
+]

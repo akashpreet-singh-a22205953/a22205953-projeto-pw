@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+<head>
+    <title>LEI</title>
+    <link rel="stylesheet" href="{% static 'curso/estilo.css' %}">
+
+</head>
+<body>
+    <header>
+        <h1>Lei</h1>
+        <a href="{% url 'curso:intro_view' %}"><button>Intro</button></a>
+        <a href="{% url 'curso:todasDisciplinas_view' %}"><button>Disciplinas</button></a>
+        <a href="{% url 'curso:projetos_view' %}"><button>Projetos</button></a>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>Universidade Lusófona</p>
+    </footer>
+</body>
+</html>

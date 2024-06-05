@@ -1,0 +1,78 @@
+{
+  "areas_cientificas": {
+    "Matematica_e_Fisica": {
+      "descricao": "Esta área engloba disciplinas fundamentais de matemática e física, fornecendo as bases teóricas necessárias para a compreensão e desenvolvimento de tecnologias informáticas.",
+      "disciplinas": [
+        "Matemática I",
+        "Matemática II",
+        "Matemática Discreta",
+        "Álgebra Linear",
+        "Fundamentos de Física"
+      ]
+    },
+    "Arquiteturas_e_Sistemas_Operativos": {
+      "descricao": "Nesta área, os estudantes aprendem sobre arquiteturas de computadores e sistemas operativos, essenciais para entender o funcionamento dos sistemas informáticos.",
+      "disciplinas": [
+        "Sistemas Digitais",
+        "Arquitetura de Computadores",
+        "Sistemas Operativos",
+        "Arquiteturas Avançadas de Computadores"
+      ]
+    },
+    "Redes_e_Telecomunicacoes": {
+      "descricao": "Disciplinas nesta área focam-se em redes de computadores e telecomunicações, essenciais para a comunicação e interligação de sistemas informáticos.",
+      "disciplinas": [
+        "Redes de Computadores",
+        "Computação Distribuída",
+        "Sistemas de Informação na Nuvem"
+      ]
+    },
+    "Programacao_e_Engenharia_de_SW": {
+      "descricao": "Esta área aborda programação e engenharia de software, incluindo o desenvolvimento de aplicações e sistemas informáticos.",
+      "disciplinas": [
+        "Fundamentos de Programação",
+        "Algoritmia e Estruturas de Dados",
+        "Linguagens de Programação I",
+        "Linguagens de Programação II",
+        "Engenharia de Software",
+        "Programação Web"
+      ]
+    },
+    "Sistemas_de_Informacao": {
+      "descricao": "Nesta área, os alunos aprendem sobre sistemas de informação e bases de dados, cruciais para o armazenamento e gestão de dados em sistemas informáticos.",
+      "disciplinas": [
+        "Bases de Dados",
+        "Gestão de Sistemas Informáticos"
+      ]
+    },
+    "Interacao_Humano_Maquina": {
+      "descricao": "Disciplinas nesta área focam-se na interação entre humanos e sistemas informáticos, incluindo usabilidade e design de interfaces.",
+      "disciplinas": [
+        "Interação Humano-Máquina",
+        "Processamento de Imagem"
+      ]
+    },
+    "Dados_e_Inteligencia_Artificial": {
+      "descricao": "Esta área engloba disciplinas sobre dados, análise e inteligência artificial, incluindo métodos para análise de dados e aprendizagem automática.",
+      "disciplinas": [
+        "Probabilidades e Estatística",
+        "Data Science",
+        "Inteligência Artificial"
+      ]
+    },
+    "Gestao_e_Softskills": {
+      "descricao": "Nesta área, os alunos adquirem conhecimentos sobre gestão de projetos e softskills, essenciais para uma carreira em engenharia informática.",
+      "disciplinas": [
+        "Competências Comportamentais",
+        "Sistemas de Suporte à Decisão"
+      ]
+    },
+    "Generica": {
+      "descricao": "Esta área aborda temas genéricos relacionados com a engenharia informática, fornecendo uma visão abrangente da área.",
+      "disciplinas": [
+        "Fundamentos de Engenharia Informática",
+        "Trabalho Final de Curso"
+      ]
+    }
+  }
+}

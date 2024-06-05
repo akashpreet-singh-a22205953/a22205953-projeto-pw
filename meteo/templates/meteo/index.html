@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Forecast</title>
+          <link rel="stylesheet" href="{% static 'portfolio1/estilo.css' %}">
+
+</head>
+<body>
+    <div class="navigation">
+        <a href="{% url 'weather' %}"><button>Meteo</button></a>
+        <a href="{% url 'previsao' %}"><button>Previsao</button></a>
+<button onclick="window.open('/', '_blank')">Portfolio</button>
+    </div>
+    <h1>Meteorologia Lisboa</h1>
+    <br>
+    <div class="dados">
+        <p>{{ dataHoje }}</p>
+        <p>Temperatura mínima: {{ temperaturaMin }}</p>
+        <p>Temperatura máxima: {{ temperaturaMax }}</p>
+        <p>Com {{ tempDesc }}</p>
+        <img src="{% static 'meteo/svg/' %}{{ svgFile }}" alt="Weather Animation" width="200px">
+    </div>
+</body>
+</html>

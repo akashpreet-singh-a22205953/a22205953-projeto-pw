@@ -1,0 +1,11 @@
+{% extends 'curso/layout.html' %}
+
+{% block content %}
+    <h1>Detalhes da Disciplina</h1>
+    <p><strong>Nome:</strong> {{ disciplina.nome }}</p>
+    <p><strong>Ano:</strong> {{ disciplina.ano }}</p>
+    <p><strong>Semestre:</strong> {{ disciplina.semestre }}</p>
+    <p><strong>ECTS:</strong> {{ disciplina.ects }}</p>
+    <p><strong>Código Curricular:</strong> {{ disciplina.curricular_IUnit_Readable_Code }}</p>
+
+{% endblock %}

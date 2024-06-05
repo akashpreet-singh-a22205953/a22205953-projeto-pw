@@ -1,0 +1,31 @@
+{% extends 'Band/layout.html' %}
+
+{% block content %}
+    <li>
+        <a href="javascript:window.history.back();" style="display: block; text-align: center;">
+            <h2>voltar</h2>
+        </a>
+    </li>
+    <h1>Álbuns da Banda {{ banda.nome }}</h1>
+
+    <ul>
+        {% for album in albuns %}
+            <li>
+                <h2>{{ album.titulo }}</h2>
+                <a href="{% url 'band:albuminfo' album.id %}">
+                    <img src="{{ album.capa.url }}" alt="Capa do Álbum" style="width: 300px; height: auto;">
+                </a>
+                <div>
+                    <form action="{% url 'band:editar_album' album.id %}" style="display: inline;">
+                        <button type="submit" class="btn btn-warning">Editar</button>
+                    </form>
+                    <form action="{% url 'band:remover_album' album.id %}" method="post" style="display: inline;">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger">Remover</button>
+                    </form>
+                </div>
+            </li>
+            <br>
+        {% endfor %}
+    </ul>
+{% endblock %}

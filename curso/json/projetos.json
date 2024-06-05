@@ -1,0 +1,152 @@
+[
+  {
+    "projeto": "Jogo das Tendas",
+    "disciplina": "Fundamentos de Programação",
+    "ano": 1,
+    "semestre": 1,
+    "descricao": "",
+    "conceitos_aplicados": "LEI, LIG, LEIRT, LCiD, LiCMA",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "Batalha Naval",
+    "disciplina": "Fundamentos de Programação",
+    "ano": 1,
+    "semestre": 1,
+    "descricao": "",
+    "conceitos_aplicados": "LEI, LIG, LEIRT, LCiD, LiCMA",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "Fórum no Moodle – discussão & partilha",
+    "disciplina": "Teoria e Prática de Marketing",
+    "ano": 1,
+    "semestre": 1,
+    "descricao": "",
+    "conceitos_aplicados": "LIG",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "Lançamento do Projétil",
+    "disciplina": "Fundamentos de Física",
+    "ano": 1,
+    "semestre": 1,
+    "descricao": "",
+    "conceitos_aplicados": "LEI, LEIRT",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "Transmissão AM e FM",
+    "disciplina": "Fundamentos de Electrónica",
+    "ano": 1,
+    "semestre": 2,
+    "descricao": "",
+    "conceitos_aplicados": "LEIRT",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "Rock in DEISI",
+    "disciplina": "Algoritmia e Estruturas de Dados",
+    "ano": 1,
+    "semestre": 2,
+    "descricao": "",
+    "conceitos_aplicados": "LEI, LIG, LEIRT",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "IT in competences development",
+    "disciplina": "Competências Comportamentais",
+    "ano": 1,
+    "semestre": 2,
+    "descricao": "",
+    "conceitos_aplicados": "LEI, LIG",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "DEISI Chess",
+    "disciplina": "Ling. de Programação II",
+    "ano": 2,
+    "semestre": 1,
+    "descricao": "",
+    "conceitos_aplicados": "LEI, LIG, LEIRT",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "DEISI Jungle",
+    "disciplina": "Ling. de Programação II",
+    "ano": 2,
+    "semestre": 1,
+    "descricao": "",
+    "conceitos_aplicados": "LEI, LIG, LEIRT",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "Dados Complicados – Universidade do País Das Maravilhas",
+    "disciplina": "Ciencia de Dados",
+    "ano": 2,
+    "semestre": 1,
+    "descricao": "",
+    "conceitos_aplicados": "LCiD",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "Controlo e Gestão de Ginásio",
+    "disciplina": "Arq. Avanç. de Computador",
+    "ano": 2,
+    "semestre": 1,
+    "descricao": "",
+    "conceitos_aplicados": "LEI",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "Casa Inteligente",
+    "disciplina": "Arq. Avanç. de Computador",
+    "ano": 2,
+    "semestre": 1,
+    "descricao": "",
+    "conceitos_aplicados": "LEI",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "Modelação, ETL e Reporting",
+    "disciplina": "Sistemas de Suporte à Decisão",
+    "ano": 2,
+    "semestre": 2,
+    "descricao": "",
+    "conceitos_aplicados": "LEI, LIG",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "OceanView Seats",
+    "disciplina": "Computação Distribuída",
+    "ano": 3,
+    "semestre": 1,
+    "descricao": "",
+    "conceitos_aplicados": "LEI, LEIRT",
+    "link_video": "",
+    "link_gitHub": ""
+  },
+  {
+    "projeto": "Cine Cartaz",
+    "disciplina": "Computação Móvel",
+    "ano": 3,
+    "semestre": 2,
+    "descricao": "",
+    "conceitos_aplicados": "LEI, LEIRT",
+    "link_video": "",
+    "link_gitHub": ""
+  }
+]

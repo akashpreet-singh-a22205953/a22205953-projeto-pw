@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Interesses em Programação Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        h2 {
+            color: #555;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meus Interesses em Programação Web</h1>
+          <nav>
+  <a href="{% url 'pwsite:index' %}">Introducao</a>
+        </nav>
+
+        <nav>
+  <a href="{% url 'pwsite:sobre' %}">sobre</a>
+        </nav>
+
+         <nav>
+  <a href="{% url 'pwsite:interesses' %}">interesses</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>O que tenho gostado de aprender:</h2>
+        <p>
+            A criação de páginas web está me fascinando, especialmente as possibilidades de design que o CSS proporciona.
+        </p>
+
+        <h2>Coisas que gostaria de aprender:</h2>
+        <p>
+            Além do básico, estou ansioso para me aprofundar em javascript. Também tenho interesse em aprender mais sobre APIs e integrações com bancos de dados.
+        </p>
+
+        <h2>Ideias de Sites que Poderia Fazer:</h2>
+        <ul>
+            <li>Um blog pessoal para compartilhar minhas experiências e aprendizados em programação.</li>
+            <li>Uma aplicação de lista de tarefas (to-do list) com funcionalidades avançadas usando JavaScript.</li>
+            <li>Um site de portfólio para exibir meus projetos e habilidades.</li>
+        </ul>
+
+        <p>
+            Essas são apenas algumas ideias iniciais, estou animado para ver como meu conhecimento em Programação Web vai evoluir e quais projetos poderei realizar no futuro.
+        </p>
+    </main>
+</body>
+</html>

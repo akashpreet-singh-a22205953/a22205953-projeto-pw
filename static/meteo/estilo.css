@@ -1,0 +1,62 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: var(--text-color);
+    margin-top: 20px;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--primary-hover-color);
+}
+
+.button-link {
+    text-decoration: none;
+}
+
+.dados {
+    background-color: var(--card-background-color);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: var(--card-shadow);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dados p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: var(--secondary-text-color);
+}
+
+.dados img {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

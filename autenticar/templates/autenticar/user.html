@@ -1,0 +1,17 @@
+{% extends 'autenticar/layout.html' %}
+
+{% block content %}
+<button onclick="window.open('/band/', '_blank')">Abrir Bandas</button>
+<button onclick="window.open('/artigos/', '_blank')">Abrir Artigos</button>
+<button onclick="window.open('/curso/', '_blank')">Abrir Curso</button>
+
+    <h3>Bemvido, {{request.user.first_name}} {{request.user.last_name}}</h3>
+
+    <ul>
+      <li>Username: {{request.user.username}}</li>
+      <li>Email: {{request.user.email}}</li>
+    </ul>
+
+    <a href="{% url 'autenticar:logout' %}">Logout</a>
+
+{% endblock %}
