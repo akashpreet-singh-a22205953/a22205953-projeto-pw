@@ -6,5 +6,6 @@ urlpatterns = [
     path('mebyme/', mebyme_detail, name='mebyme_detail'),
     path('TechIntro/', tech_presentation, name='tech_presentation'),
     path('allApp/',allApp_view,name = 'allAppview'),
-    path('video/',video_view,name= 'video_view'),
+    path('video/',video_view,name= 'video_view')
+
 ]

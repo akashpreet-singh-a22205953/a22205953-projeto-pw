@@ -35,3 +35,20 @@ class allApp(models.Model):
     Artigos = models.ImageField(upload_to='images/', null=True, blank=True)
     Meteo = models.ImageField(upload_to='images/', null=True, blank=True)
 
+
+
+class HandsOnDjango(models.Model):
+    title = models.CharField(max_length=200)
+    video = models.FileField(upload_to='videos/', null=True, blank=True)  # Add null and blank
+
+    def __str__(self):
+        return self.title
+
+class Visita(models.Model):
+    title = models.CharField(max_length=200)
+    video = models.FileField(upload_to='videos/', null=True, blank=True)  # Add null and blank
+
+    def __str__(self):
+        return self.title
+
+

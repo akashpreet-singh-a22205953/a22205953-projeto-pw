@@ -5,16 +5,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Coming Soon</title>
+    <title>Videos</title>
     <style>
-
         h1 {
             font-size: 3em;
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Align items with space between */
+            padding: 82px; /* Add padding to the container */
+            margin-top:-300px;
+        }
+        .video {
+            margin: 10px;
+            width: 400px;
+        
+            padding: 10px; /* Add padding to each video element */
+        }
+        .video h2 {
+            margin-top: 0; /* Remove default margin from heading */
+        }
+        video {
+            width: 100%; /* Ensure videos fill their container */
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <h1>Video Coming Soon</h1>
+    <h1>Videos</h1>
+    <div class="video-container">
+        {% for video in hands_on_django_videos %}
+            <div class="video">
+                <h2>{{ video.title }}</h2>
+                <video controls>
+                    <source src="{{ video.video.url }}" type="{{ video.video.content_type }}">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        {% endfor %}
+        {% for video in visita_videos %}
+            <div class="video">
+                <h2>{{ video.title }}</h2>
+                <video controls>
+                    <source src="{{ video.video.url }}" type="{{ video.video.content_type }}">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        {% endfor %}
+    </div>
 </body>
 </html>
 {% endblock %}
